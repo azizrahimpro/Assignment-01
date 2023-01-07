@@ -45,4 +45,97 @@
   height: 64px;
   border-radius: 5px;
 }
+/* article-01*/
+.article-01 {
+  display: flex;
+  margin: 206px 130px 322px 130px;
+}
+.img-article-01 {
+  background-image: linear-gradient(
+    rgba(241, 93, 34, 0.267),
+    rgba(241, 93, 34, 0.267)
+  );
+  background-blend-mode: overlay;
+  border-radius: 100%;
+}
+.article-01-info {
+  padding-left: 87px;
+  padding-top: 220px;
+}
+.article-01-info h2 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+}
+.article-01-about {
+  width: 416px;
+  height: 104px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
 
+.list-01 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+}
+/* article-02 */
+.article-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.target-box {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.target {
+  width: 181px;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+}
+.target-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.target-info {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+.article-03 {
+  margin: 230px 125px;
+  width: 1140px;
+  height: 300px;
+  background-image: url(../images/watch.png),
+    linear-gradient(rgba(241, 93, 34, 0.966), rgba(241, 91, 34, 0));
+  background-blend-mode: overlay;
+  border-radius: 8px;
+  background-repeat: n;
+  margin: auto;
+  margin-bottom: 130px;
+}
+.article-03-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 65px;
+  padding-top: 60px;
+}
+
+.btn-02 {
+  width: 120px;
+  height: 50px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
